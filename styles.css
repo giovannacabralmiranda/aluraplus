@@ -1,0 +1,96 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.principal {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.container__titulo {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.container__imagem {
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.container__botao {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #f3c623;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container__botao.botao_secundario {
+    background-color: #555;
+}
+
+.container__aviso {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.secundario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.secundario__imagem {
+    max-width: 50%;
+    height: auto;
+}
+
+.descricao__titulo {
+    font-size: 1.8em;
+    margin-left: 20px;
+}
+
+.filmes {
+    margin: 50px 0;
+}
+
+.filmes__titulo {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.filmes__lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.filme {
+    text-align: center;
+    margin: 20px;
+}
+
+.filme__imagem {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.filme__nome {
+    margin-top: 10px;
+}
